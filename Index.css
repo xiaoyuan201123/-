@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 85px;
+}
+
+.photo{
+    width: 320px;
+    height: 650px;
+    background: linear-gradient(180deg,#ead6ee,#a0f1ea)fixed;
+    margin: 100px auto;
+    font-size: "微软雅黑 Light";
+    color: #2c606d;
+    border-radius: 5%;
+    box-shadow: 0 0 7px #ead6ea;
+    overflow: hidden;
+}
+
+.title{
+    margin-top: 5px;
+    width: 100%;
+    height: 70px;
+    font-size: 32px;
+    text-align: center;
+    line-height:70px;
+}
+
+.singer{
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+}
+
+/* .play{
+    width: 150px;
+    height: 120px;
+    border-radius: 100%;
+    background-image: url("");
+    background-repeat: no-repeat;
+    margin:20px auto;
+} */
+
+.irc{
+    width: 100%;
+    height: 220px;
+    margin: 50px auto;
+    text-align: center;
+    /* background-color:red; */
+    overflow: hidden;
+}
+
+.irc p{
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.content{
+    position: relative;
+}
+
+/* .play.rotate{
+    -webkit-animation: rot 5s linear infinite;
+    animation:rot 5s linear infinite ;
+
+} */
+.control-btn{
+    width: 105px;
+    height: 60px;
+    /* background: red; */
+    text-align: center;
+    margin-top:-40px;
+    font-size: 40px;
+    float: left;
+}
+
+.playbarinfo{
+    display: flex;
+    width: 100%;
+    height: 20px;
+}
+.playbar{
+    width: 70%;
+    height: 6px;
+    margin: 30px auto;
+    border-radius: 3px;
+    background-color: white
+}
+.playimgbar{
+    height: 6px;
+    width: 0px;
+    border-radius: 3xp;
+    background-color: gray;
+}
+.start{
+    height: 70px;
+    float: left;
+    margin-left: 8%;
+    line-height: 70px;
+    font-size: 14px;
+}
+.end{
+    height: 70px;
+    float: right;
+    margin-right: 8%;
+    line-height: 70px;
+    font-size: 14px;
+}
+
+.rotateZ{
+    animation:run 3s linear infinite;
+}
+
+@keyframes run{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+
